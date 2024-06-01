@@ -14,7 +14,13 @@ This project demonstrates how to interact with a SOAP API using Python and the `
 
 ## Introduction
 
-This project uses the `zeep` library to interact with the CountryInfoService SOAP API. It includes functions to list available operations, fetch a list of continents, and retrieve information about a country's currency and flag.
+This project uses the `zeep` library to interact with the CountryInfoService SOAP API which is a free soap api.
+```bash
+http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL
+```
+
+This WSDL file offers a nice big learning playground. Few of its several services include fetching the country’s capital, currency, flag (as jpeg image), phone code etc.
+It includes functions to list available operations, fetch a list of continents, and retrieve information about a country's currency and flag.
 
 ## Installation
 
